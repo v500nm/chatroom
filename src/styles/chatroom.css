@@ -1,0 +1,38 @@
+.chat-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #444;
+  }
+  
+  .messages {
+    height: 300px;
+    overflow-y: scroll;
+    background: #222;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .my-message {
+    text-align: right;
+    color: green;
+  }
+  
+  .other-message {
+    text-align: left;
+    color: lightblue;
+  }
+  
+  .message-form input {
+    width: 80%;
+    padding: 8px;
+  }
+  
+  .message-form button {
+    padding: 8px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
